@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+
+
+    <record model="ir.actions.act_window" id="gestion_clubs.action_entreneur">
+      <field name="name">Entreneurs</field>
+      <field name="res_model">gestion_clubs.entreneur</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+    <!-- Top menu item -->
+    <menuitem name="Entreneurs" id="gestion_clubs.menu_2" parent="gestion_clubs.menu_root" action="gestion_clubs.action_entreneur"/>
+
+  </data>
+</odoo>

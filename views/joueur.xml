@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+
+
+    <record model="ir.actions.act_window" id="gestion_clubs.action_joueur">
+      <field name="name">Joueurs</field>
+      <field name="res_model">gestion_clubs.joueur</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+    <!-- Top menu item -->
+    <menuitem name="Joueurs" id="gestion_clubs.menu_3" parent="gestion_clubs.menu_root" action="gestion_clubs.action_joueur"/>
+
+  </data>
+</odoo>
